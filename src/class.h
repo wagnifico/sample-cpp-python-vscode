@@ -12,7 +12,7 @@ class _DummyClass {
         void sayHelloFromHeader(int b){
             int a = 1;
             std::cout << "Hello from class.h" << std::endl;
-            std::cout << "a = " << a << ",b = " << b << std::endl;
+            std::cout << "a = " << a << ", b = " << b << std::endl;
         };
 
         void sayHelloFromCode(int b);
